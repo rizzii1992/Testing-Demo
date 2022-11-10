@@ -1,0 +1,37 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> IRIS FLOWER DETECTION </h1><br>
+        
+        <form method="POST", action="{{url_for('prediction')}}">
+           <b> Maximum Temperature :  <input type="text", name='Max_TemperatureC', placeholder="enter Maximum temperature"> <br><br>
+            Mean Temperature :  <input type="text", name='Mean_TemperatureC', placeholder="enter Mean Temperature"> <br><br>
+            Minimum Temperature :  <input type="text", name='Min_TemperatureC', placeholder="enter Minimum Temperature"> <br><br>
+            Dew Point :  <input type="text", name='Dew_PointC', placeholder="enter Dew point"> <br><br>
+            Mean Dew Point :  <input type="text", name='MeanDew_PointC', placeholder="enter Mean Dew point"> <br><br>
+            Min DewpointC :  <input type="text", name='Min_DewpointC', placeholder="enter Min DewpointC"> <br><br>
+            Max Humidity :  <input type="text", name='Max_Humidity', placeholder="enter Max Humidity"> <br><br>
+            Mean Humidity :  <input type="text", name='Mean_Humidity', placeholder="enter Mean Humidity"> <br><br>
+            Min Humidity :  <input type="text", name='Min_Humidity', placeholder="enter Min Humidity"> <br><br>
+            Max Sea Level PressurehPa :  <input type="text", name='Max_Sea_Level_PressurehPa', placeholder="enter Max Sea Level PressurehPa"> <br><br>
+            Mean Sea Level PressurehPa :  <input type="text", name='Mean_Sea_Level_PressurehPa', placeholder="enter Mean Sea Level PressurehPa"> <br><br>
+            Min Sea Level PressurehPa :  <input type="text", name='Min_Sea_Level_PressurehPa', placeholder="enter Min Sea Level PressurehPa"> <br><br>
+            Max VisibilityKm :  <input type="text", name='Max_VisibilityKm', placeholder="enter Max VisibilityKm"> <br><br>
+            Mean VisibilityKm :  <input type="text", name='Mean_VisibilityKm', placeholder="enter Mean VisibilityKm"> <br><br>
+            Min VisibilitykM :  <input type="text", name='Min_VisibilitykM', placeholder="enter Min VisibilitykM"> <br><br>
+            Max Wind SpeedKmph :  <input type="text", name='Max_Wind_SpeedKmph', placeholder="enter Max Wind SpeedKmph"> <br><br>
+            Mean Wind SpeedKmph :  <input type="text", name='Mean_Wind_SpeedKmph', placeholder="enter Mean Wind SpeedKmph"> <br><br>
+            Precipitationmm :  <input type="text", name='Precipitationmm', placeholder="enter Precipitationmm"> <br><br>
+            CloudCover :  <input type="text", name='CloudCover', placeholder="enter CloudCover"> <br><br>
+            WindDirDegrees : <input type="text", name='WindDirDegrees', placeholder="enter WindDirDegrees"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <!-- <img src='static\flower1.jpg' alt="flower"> -->
+        
+    </center>
+
+    </body>
+</html>
